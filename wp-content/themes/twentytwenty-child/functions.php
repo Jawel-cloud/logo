@@ -25,22 +25,7 @@ add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
 
 function load_js_assets() {
     if( is_page( 22 ) ) {
-        wp_enqueue_script('my-js', 'http://localhost/logo/wp-content/themes/twentytwenty-child/script.js', array('jquery'), '', false);
+        wp_enqueue_script('my-js', 'http://localhost/logo/wp-content/themes/twentytwenty-child/script.js', array('jquery'), '', true);
     } 
 }
 add_action('wp_enqueue_scripts', 'load_js_assets');
-// 
-// function load_js_assets() {
-//     if( is_page( 22 ) ) {
-//         wp_enqueue_script( 'my-js', get_template_directory_uri() . '../twentytwenty-child/script.js');
-//     } 
-// }
-// add_action('wp_enqueue_scripts', 'load_js_assets');
-// 
-// function myjs() {
-//     if( is_page( 22 ) ) {
-// 		alert ('it works');
-// console.log('it works');
-// 	} 
-// }
-// myjs();
