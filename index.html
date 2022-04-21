@@ -97,9 +97,10 @@ header{
 
 
 
-/* .mainColumn{
-	padding-left:13vw;
-} */
+
+
+
+
 .logoUpper{
 	position: absolute;
 	left: 13vw;
@@ -124,7 +125,7 @@ visibility: hidden;
 	text-shadow: 1px 1px 1px black
 }
 .headerColumn{
-	margin:29vh 0 35vh 13vw !important;
+	margin:31vh 0 35vh 13vw !important;
 }
 .headerButton img{
 	width:13vw !important;
@@ -138,7 +139,7 @@ visibility: hidden;
 	width: auto !important;
 	padding-left: 11vw;
 	padding-right: 11vw;
-	margin-bottom: 15vh !important;
+	margin-bottom: 16vh !important;
 }
 
 .square{
@@ -161,12 +162,7 @@ height: 300px;
 	border-radius:5%;
 	margin:auto;
 }
-/* .leftSquare{
-	margin-left: 10vh !important;
-}
-.rightSquare{
-	margin-left: 0vh !important;
-} */
+
 .circle{
 	width:9vh !important;
 	height:9vh !important;
@@ -179,11 +175,11 @@ height: 300px;
 	line-height:40px !important;
 } */
 .appColoumn{
-	margin: 27vh 0 1vh 4vw !important;
+	margin: 35vh 0 1vh 4vw !important;
 }
 
 .appColoumn-hand{
-	margin: 27vh 0 0 6vw !important;
+	margin: 28vh 0 0 6vw !important;
 	width: 40vw !important;
 }
 .appColoumn-text{
@@ -238,8 +234,13 @@ ul li::before {
 	color: white;
 }
 
+.number{
+	text-align: center !important;
+}
+
 .contactColumn{
 	margin: 7vh 0vw 10vh -1vw  !important;
+	padding-left: 33vw;
 }
 .contactButton img{
 	width:12vw !important;
@@ -255,6 +256,207 @@ ul li::before {
 }
 .links{
 	padding:0 0 0 5vw !important;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1200px){
+	h1{
+		font-size: 50px !important;
+	}
+	h2{
+		font-size: 38px !important;
+	}
+	p{
+		font-size: 14px !important;
+	}
+	.links{
+	padding:0 0 0 0vw !important;
+}
+	
+	
+@media (max-width: 1000px){
+	h1{
+		font-size: 45px !important;
+	}
+	h2{
+		font-size: 30px !important;
+	}
+	p{
+		font-size: 12px !important;
+	}
+	li{
+		font-size: 12px !important;
+	}
+	.headerColumn{
+	margin:20vh 0 20vh 10vw !important;
+}
+.logoBottom{
+	margin: 2vh 0 0 -2vw;
+	width: 4vw
+}
+.copyrights{
+	position:absolute;
+	right:2vw;
+}
+.links{
+	font-size: 10px;
+}
+.squaresColumn{
+	justify-content: space-between !important;
+	align-items: center !important;
+	width: auto !important;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	margin-bottom: 16vh !important;
+}
+
+}
+@media (max-width: 800px){
+	h1{
+		font-size: 40px !important;
+	}
+/* 	h2{
+		font-size: 22px !important;
+	}
+	p{
+		font-size: 10px !important;
+	} */
+	li{
+		font-size: 10px !important;
+		line-height: 15px !important;
+	}
+	.headerColumn{
+	margin:10vh 0 12vh 10vw !important;
+}
+	.appColoumn-hand{
+	margin: 28vh 0 0 2vw !important;
+	width: 30vw !important;
+}
+	.questionColumn-notes{
+	width: 18vw;
+	margin:20vh 0 0 7vw !important;
+}
+	.contactColumn{
+		padding-left: 12vw;
+	}
+}
+@media (max-width: 700px){
+	.headerColumn{
+	margin:2vh 0 10vh 5vw !important;
+}
+}
+@media (max-width: 600px){
+	h1{
+		font-size: 20px !important;
+	}
+	h2{
+		font-size: 40px !important;
+	}
+	h5{
+		font-size: 20px !important;
+	}
+	p{
+		font-size: 14px !important;
+	}
+	.logoUpper{
+		display: none;
+}
+.burgerMenu{
+	display: none;
+}
+	.headerP{
+		font-size: 10px !important;
+	}
+	li{
+		font-size: 14px !important;
+		line-height: 18px !important;
+	}
+	.headerColumn{
+	margin: -7vh 0 6vh 2vw !important;
+}
+	.pictureColumn{
+	display:none !important;
+}
+.appColoumn{
+	margin: 15vh 0 1vh 13vw !important;
+}
+
+}
+@media (max-width: 500px){
+	h1{
+		font-size: 20px !important;
+	}
+	h2{
+		font-size: 30px !important;
+	}
+	p{
+		font-size: 12px !important;
+	}
+	.headerP{
+		font-size: 8px !important;
+	}
+	li{
+		font-size: 12px !important;
+		line-height: 16px !important;
+	}
+	.pictureColumn{
+	display:none !important;
+}
+.appColoumn{
+	margin: 15vh 0 1vh 5vw !important;
+	text-align: center;
+}
+.questionColumn{
+	margin: 15vh 0 1vh 5vw !important;
+	text-align: center;
+}
+	.CircleImg img{
+	width: 18vw !important;
+		margin-left: 40vw;
+}
+	.appButton img{
+		width: 30vw !important;
+		margin-left: 35vw !important;
+	}
+	.contactButton img{
+		width: 30vw !important;
+	}
+.links{
+	display: none;
+}
+
+}
+	
+	
+@media (max-width: 450px){
+	h1{
+		font-size: 20px !important;
+	}
+	h2{
+		font-size: 20px !important;
+	}
+	h5{
+		font-size: 14px !important;
+	}
+	p{
+		font-size: 8px !important;
+	}
+		.headerColumn{
+	margin: -14vh 0 6vh 2vw !important;
+}
+	.headerP{
+		font-size: 6px !important;
+	}
+	li{
+		font-size: 8px !important;
+		line-height: 12px !important;
+	}
 }</style>
 		
 	</head>
@@ -428,11 +630,11 @@ ul li::before {
 
 <div class="wp-block-columns mainColumn headerColumn">
 <div class="wp-block-column">
-<h3 class="has-white-color has-text-color" style="font-size:68px">Download Our<br>app and enjoy!</h3>
+<h1 class="has-white-color has-text-color" style="font-size:68px">Download Our<br>app and enjoy!</h1>
 
 
 
-<p class="has-white-color has-text-color" style="font-size:16px">Contrary to popular belief, Lorem Ipsum is not simply randa text. has<br>roots in a piece of classical Latin literature from BC, making it over<br>2000 years old. Richard McClintock.</p>
+<p class="headerP has-white-color has-text-color" style="font-size:16px">Contrary to popular belief, Lorem Ipsum is not simply randa text. has<br>roots in a piece of classical Latin literature from BC, making it over<br>2000 years old. Richard McClintock.</p>
 
 
 
@@ -503,7 +705,7 @@ ul li::before {
 
 
 <div class="wp-block-columns mainColumn appColoumn" id="designing">
-<div class="wp-block-column">
+<div class="wp-block-column pictureColumn">
 <figure class="wp-block-image size-large appColoumn-hand"><img loading="lazy" width="1024" height="550" src="https://jawel-cloud.github.io/logo/wp-content/uploads/2022/04/Saly-25@2x-1024x550.png" alt="" class="wp-image-308" srcset="https://jawel-cloud.github.io/logo/wp-content/uploads/2022/04/Saly-25@2x-1024x550.png 1024w, https://jawel-cloud.github.io/logo/wp-content/uploads/2022/04/Saly-25@2x-300x161.png 300w, https://jawel-cloud.github.io/logo/wp-content/uploads/2022/04/Saly-25@2x-768x413.png 768w, https://jawel-cloud.github.io/logo/wp-content/uploads/2022/04/Saly-25@2x-1200x645.png 1200w, https://jawel-cloud.github.io/logo/wp-content/uploads/2022/04/Saly-25@2x.png 1280w" sizes="(max-width: 1024px) 100vw, 1024px"></figure>
 </div>
 
@@ -514,7 +716,7 @@ ul li::before {
 
 
 
-<h4 style="font-size:50px">We Designed Perfect<br>App for You</h4>
+<h2 style="font-size:50px">We Designed Perfect<br>App for You</h2>
 
 
 
@@ -544,7 +746,7 @@ ul li::before {
 
 
 
-<h4 style="font-size:50px">Have any Question?</h4>
+<h2 style="font-size:50px">Have any Question?</h2>
 
 
 
@@ -562,7 +764,7 @@ ul li::before {
 
 
 
-<div class="wp-block-column">
+<div class="wp-block-column pictureColumn">
 <figure class="wp-block-image size-full questionColumn-notes"><img loading="lazy" width="802" height="992" src="https://jawel-cloud.github.io/logo/wp-content/uploads/2022/04/Saly-26@2x.png" alt="" class="wp-image-309" srcset="https://jawel-cloud.github.io/logo/wp-content/uploads/2022/04/Saly-26@2x.png 802w, https://jawel-cloud.github.io/logo/wp-content/uploads/2022/04/Saly-26@2x-243x300.png 243w, https://jawel-cloud.github.io/logo/wp-content/uploads/2022/04/Saly-26@2x-768x950.png 768w" sizes="(max-width: 802px) 100vw, 802px"></figure>
 </div>
 </div>
@@ -612,12 +814,8 @@ ul li::before {
 
 
 <div class="wp-block-columns mainColumn contactColumn" id="contact">
-<div class="wp-block-column" style="flex-basis:25%"></div>
-
-
-
 <div class="wp-block-column" style="flex-basis:50%">
-<h3 class="has-text-align-center has-primary-color has-text-color" style="font-size:50px">Still Not Lucky?</h3>
+<h2 class="has-text-align-center has-primary-color has-text-color" style="font-size:50px">Still Not Lucky?</h2>
 
 
 
@@ -629,10 +827,6 @@ ul li::before {
 <div class="wp-block-button is-style-outline contactButton"><a class="wp-block-button__link"><img loading="lazy" width="201" height="71" class="wp-image-299" style="width: 150px;" src="https://jawel-cloud.github.io/logo/wp-content/uploads/2022/04/BTN2.png" alt=""></a></div>
 </div>
 </div>
-
-
-
-<div class="wp-block-column" style="flex-basis:25%"></div>
 </div>
 
 
@@ -688,10 +882,6 @@ ul li::before {
 </div>
 </div>
 </div>
-
-
-
-<p></p>
 
 		</div>
 <!-- .entry-content -->
